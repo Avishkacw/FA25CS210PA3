@@ -160,7 +160,7 @@ bool dfs (int r, int c,
         if (nr < 0 || nr >= N || nc < 0 || nc >= M) continue;
         //wall check
         if (maze[nr][nc] == 1) continue;
-        //visited check
+        //visited checkk
         if (visited[nr][nc]) continue;
 
         //set parent bfore recusing
